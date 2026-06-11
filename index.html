@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天衍万象 · 天衍仙命图鉴</title>
+<style>
+  :root{
+    --bg:#0d1020; --bg2:#141a32; --card:#1a2140; --card2:#212a4f;
+    --line:#2c3563; --txt:#e8ecff; --dim:#9aa6d6; --gold:#ffd479;
+    --accent:#7aa2ff; --kw:#8be0c4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+    background:radial-gradient(1200px 700px at 50% -10%,#1d2547 0%,var(--bg) 55%) fixed;
+    color:var(--txt); line-height:1.65; min-height:100vh; padding-bottom:60px;
+  }
+  header{
+    text-align:center; padding:48px 20px 26px;
+    background:radial-gradient(700px 300px at 50% 0,rgba(122,162,255,.16),transparent 70%);
+  }
+  header h1{
+    font-size:2.5rem; letter-spacing:.18em; font-weight:800;
+    background:linear-gradient(90deg,#ffe6a8,#ffd479,#ffb86b);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+    text-shadow:0 2px 30px rgba(255,200,100,.18);
+  }
+  header .sub{color:var(--gold);letter-spacing:.32em;font-size:.82rem;margin-top:6px;opacity:.85}
+  header .desc{color:var(--dim);max-width:680px;margin:16px auto 0;font-size:.92rem}
+  header .desc b{color:var(--accent)}
+
+  .toolbar{
+    position:sticky; top:0; z-index:20; backdrop-filter:blur(12px);
+    background:rgba(13,16,32,.82); border-bottom:1px solid var(--line);
+    padding:14px 16px; display:flex; flex-wrap:wrap; gap:10px;
+    align-items:center; justify-content:center;
+  }
+  .search{
+    flex:1 1 260px; max-width:380px; background:var(--card); border:1px solid var(--line);
+    border-radius:10px; padding:9px 14px; color:var(--txt); font-size:.95rem; outline:none;
+  }
+  .search:focus{border-color:var(--accent)}
+  .filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .chip{
+    cursor:pointer; user-select:none; border:1px solid var(--line); background:var(--card);
+    color:var(--dim); padding:8px 15px; border-radius:20px; font-size:.86rem; transition:.16s;
+    white-space:nowrap;
+  }
+  .chip:hover{border-color:var(--accent);color:var(--txt)}
+  .chip.on{background:linear-gradient(90deg,#ffd479,#ffb86b);color:#1a1320;border-color:transparent;font-weight:700}
+  .count{color:var(--dim);font-size:.8rem;margin-left:4px;opacity:.7}
+
+  .grid{
+    max-width:1240px; margin:26px auto 0; padding:0 16px;
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:14px;
+  }
+  .item{
+    background:linear-gradient(160deg,var(--card),var(--bg2));
+    border:1px solid var(--line); border-radius:14px; padding:15px;
+    display:flex; gap:14px; transition:.18s; position:relative; overflow:hidden;
+  }
+  .item:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .item .ico{
+    width:62px;height:62px;flex:0 0 62px;border-radius:11px;
+    background:#0c1027;border:1px solid var(--line); object-fit:cover;
+    box-shadow:inset 0 0 16px rgba(0,0,0,.5);
+  }
+  .item .body{flex:1;min-width:0}
+  .item .nm{font-size:1.12rem;font-weight:700;color:var(--gold);letter-spacing:.04em}
+  .item .nm .id{font-size:.72rem;color:var(--dim);font-weight:400;margin-left:7px;opacity:.6}
+  .item .eff{font-size:.88rem;color:var(--txt);margin-top:5px;white-space:pre-wrap;word-break:break-word}
+  .item .eff .ref{color:var(--kw)}
+  .item .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+  .tag{font-size:.72rem;padding:2px 9px;border-radius:6px;background:var(--card2);color:var(--accent);border:1px solid var(--line)}
+  .tag.act{background:rgba(255,184,107,.14);color:var(--gold);border-color:rgba(255,184,107,.3)}
+
+  .empty{text-align:center;color:var(--dim);padding:60px;grid-column:1/-1}
+  footer{text-align:center;color:var(--dim);font-size:.78rem;margin-top:40px;opacity:.6;padding:0 20px}
+  footer a{color:var(--accent);text-decoration:none}
+  @media(max-width:560px){header h1{font-size:1.9rem}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>天 衍 万 象</h1>
+  <div class="sub">天 衍 仙 命 图 鉴</div>
+  <div class="desc">
+    每局游戏的第 <b>3 / 6 / 9</b> 轮开始时，可从 <b>4</b> 个随机天衍仙命中选择一个。
+    部分天衍仙命需选择后<b>主动使用</b>（限次数 / 冷却若干轮）。下方共收录 <b id="total">0</b> 个天衍仙命。
+  </div>
+</header>
+
+<div class="toolbar">
+  <input id="q" class="search" placeholder="搜索名称或效果…" autocomplete="off">
+  <div class="filters" id="filters"></div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  数据解析自游戏本地化与配置资源 · 仅作信息展示 · 图标版权归原作者所有
+</footer>
+
+<script>
+const CATS=["全部","主动使用","到轮获牌","即时获牌","被动增益"];
+let DATA=[], cat="全部", kw="";
+
+function highlight(s){
+  return s.replace(/\[([^\]]+)\]/g,'<span class="ref">[$1]</span>');
+}
+function render(){
+  const g=document.getElementById('grid');
+  const list=DATA.filter(d=>{
+    if(cat!=="全部"&&d.category!==cat)return false;
+    if(kw){const t=(d.name+d.effect).toLowerCase();if(!t.includes(kw))return false;}
+    return true;
+  });
+  if(!list.length){g.innerHTML='<div class="empty">没有匹配的天衍仙命</div>';return;}
+  g.innerHTML=list.map(d=>{
+    const tags=(d.tags||[]).map(t=>{
+      const act=/限|冷却/.test(t)?' act':'';
+      return `<span class="tag${act}">${t}</span>`;
+    }).join('');
+    return `<div class="item">
+      <img class="ico" loading="lazy" src="icons/${d.icon}" alt="" onerror="this.style.visibility='hidden'">
+      <div class="body">
+        <div class="nm">${d.name}<span class="id">#${d.id}</span></div>
+        <div class="eff">${highlight(d.effect)}</div>
+        <div class="tags">${tags}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+function buildFilters(){
+  const f=document.getElementById('filters');
+  f.innerHTML=CATS.map(c=>{
+    const n=c==="全部"?DATA.length:DATA.filter(d=>d.category===c).length;
+    return `<span class="chip${c===cat?' on':''}" data-c="${c}">${c}<span class="count">${n}</span></span>`;
+  }).join('');
+  f.querySelectorAll('.chip').forEach(ch=>ch.onclick=()=>{
+    cat=ch.dataset.c;
+    f.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.c===cat));
+    render();
+  });
+}
+document.getElementById('q').addEventListener('input',e=>{kw=e.target.value.trim().toLowerCase();render();});
+
+fetch('data.json').then(r=>r.json()).then(d=>{
+  DATA=d;
+  document.getElementById('total').textContent=d.length;
+  buildFilters(); render();
+});
+</script>
+</body>
+</html>
