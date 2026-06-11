@@ -17,7 +17,7 @@
     color:var(--txt); line-height:1.65; min-height:100vh; padding-bottom:60px;
   }
   header{
-    text-align:center; padding:48px 20px 26px;
+    text-align:center; padding:44px 20px 22px;
     background:radial-gradient(700px 300px at 50% 0,rgba(122,162,255,.16),transparent 70%);
   }
   header h1{
@@ -27,57 +27,61 @@
     text-shadow:0 2px 30px rgba(255,200,100,.18);
   }
   header .sub{color:var(--gold);letter-spacing:.32em;font-size:.82rem;margin-top:6px;opacity:.85}
-  header .desc{color:var(--dim);max-width:680px;margin:16px auto 0;font-size:.92rem}
+  header .desc{color:var(--dim);max-width:700px;margin:14px auto 0;font-size:.92rem}
   header .desc b{color:var(--accent)}
 
   .toolbar{
     position:sticky; top:0; z-index:20; backdrop-filter:blur(12px);
-    background:rgba(13,16,32,.82); border-bottom:1px solid var(--line);
-    padding:14px 16px; display:flex; flex-wrap:wrap; gap:10px;
-    align-items:center; justify-content:center;
+    background:rgba(13,16,32,.85); border-bottom:1px solid var(--line);
+    padding:12px 16px; display:flex; flex-direction:column; gap:10px; align-items:center;
   }
   .search{
-    flex:1 1 260px; max-width:380px; background:var(--card); border:1px solid var(--line);
+    width:100%; max-width:420px; background:var(--card); border:1px solid var(--line);
     border-radius:10px; padding:9px 14px; color:var(--txt); font-size:.95rem; outline:none;
   }
   .search:focus{border-color:var(--accent)}
-  .filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+  .filters{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}
   .chip{
     cursor:pointer; user-select:none; border:1px solid var(--line); background:var(--card);
-    color:var(--dim); padding:8px 15px; border-radius:20px; font-size:.86rem; transition:.16s;
-    white-space:nowrap;
+    color:var(--dim); padding:6px 13px; border-radius:18px; font-size:.83rem; transition:.16s; white-space:nowrap;
   }
   .chip:hover{border-color:var(--accent);color:var(--txt)}
   .chip.on{background:linear-gradient(90deg,#ffd479,#ffb86b);color:#1a1320;border-color:transparent;font-weight:700}
-  .count{color:var(--dim);font-size:.8rem;margin-left:4px;opacity:.7}
+  .count{font-size:.78rem;margin-left:4px;opacity:.65}
 
   .grid{
-    max-width:1240px; margin:26px auto 0; padding:0 16px;
-    display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:14px;
+    max-width:1280px; margin:24px auto 0; padding:0 16px;
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:13px;
   }
   .item{
     background:linear-gradient(160deg,var(--card),var(--bg2));
-    border:1px solid var(--line); border-radius:14px; padding:15px;
-    display:flex; gap:14px; transition:.18s; position:relative; overflow:hidden;
+    border:1px solid var(--line); border-radius:14px; padding:14px;
+    display:flex; gap:13px; transition:.18s; position:relative; overflow:hidden;
   }
   .item:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 10px 30px rgba(0,0,0,.35)}
-  .item .ico{
-    width:62px;height:62px;flex:0 0 62px;border-radius:11px;
-    background:#0c1027;border:1px solid var(--line); object-fit:cover;
-    box-shadow:inset 0 0 16px rgba(0,0,0,.5);
+  .ico,.tile{
+    width:60px;height:60px;flex:0 0 60px;border-radius:11px;border:1px solid var(--line);
+    box-shadow:inset 0 0 16px rgba(0,0,0,.45);
   }
-  .item .body{flex:1;min-width:0}
-  .item .nm{font-size:1.12rem;font-weight:700;color:var(--gold);letter-spacing:.04em}
-  .item .nm .id{font-size:.72rem;color:var(--dim);font-weight:400;margin-left:7px;opacity:.6}
-  .item .eff{font-size:.88rem;color:var(--txt);margin-top:5px;white-space:pre-wrap;word-break:break-word}
-  .item .eff .ref{color:var(--kw)}
-  .item .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
-  .tag{font-size:.72rem;padding:2px 9px;border-radius:6px;background:var(--card2);color:var(--accent);border:1px solid var(--line)}
+  .ico{background:#0c1027;object-fit:cover}
+  .tile{
+    display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:800;
+    color:#fff; text-shadow:0 1px 4px rgba(0,0,0,.5);
+  }
+  .body{flex:1;min-width:0}
+  .nm{font-size:1.1rem;font-weight:700;color:var(--gold);letter-spacing:.04em}
+  .nm .pf{font-size:.68rem;background:var(--card2);border:1px solid var(--line);color:var(--accent);
+    padding:1px 6px;border-radius:5px;margin-right:6px;vertical-align:middle;font-weight:600}
+  .nm .id{font-size:.7rem;color:var(--dim);font-weight:400;margin-left:6px;opacity:.55}
+  .eff{font-size:.87rem;color:var(--txt);margin-top:5px;white-space:pre-wrap;word-break:break-word}
+  .eff .ref{color:var(--kw)}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+  .tag{font-size:.71rem;padding:2px 8px;border-radius:6px;background:var(--card2);color:var(--accent);border:1px solid var(--line)}
   .tag.act{background:rgba(255,184,107,.14);color:var(--gold);border-color:rgba(255,184,107,.3)}
+  .tag.cat{background:rgba(122,162,255,.12);color:var(--accent);border-color:rgba(122,162,255,.25)}
 
   .empty{text-align:center;color:var(--dim);padding:60px;grid-column:1/-1}
   footer{text-align:center;color:var(--dim);font-size:.78rem;margin-top:40px;opacity:.6;padding:0 20px}
-  footer a{color:var(--accent);text-decoration:none}
   @media(max-width:560px){header h1{font-size:1.9rem}.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -87,7 +91,7 @@
   <div class="sub">天 衍 仙 命 图 鉴</div>
   <div class="desc">
     每局游戏的第 <b>3 / 6 / 9</b> 轮开始时，可从 <b>4</b> 个随机天衍仙命中选择一个。
-    部分天衍仙命需选择后<b>主动使用</b>（限次数 / 冷却若干轮）。下方共收录 <b id="total">0</b> 个天衍仙命。
+    按官方分类共收录 <b id="total">0</b> 个天衍仙命，覆盖常规、主动、获牌、命型、道韵、极牌等全部类型。
   </div>
 </header>
 
@@ -98,38 +102,37 @@
 
 <div class="grid" id="grid"></div>
 
-<footer>
-  数据解析自游戏本地化与配置资源 · 仅作信息展示 · 图标版权归原作者所有
-</footer>
+<footer>数据解析自游戏本地化与配置资源 · 仅作信息展示 · 图标版权归原作者所有</footer>
 
 <script>
-const CATS=["全部","主动使用","到轮获牌","即时获牌","被动增益"];
+const CATS=["全部","常规型","主动计数型","主动冷却型","到达轮次获得卡牌","命型","融汇型","扩充牌池型","道韵","极牌"];
+const CATCOLOR={
+  "常规型":["#3a4a7a","#27325c"],"主动计数型":["#7a5a2a","#5c4420"],"主动冷却型":["#2a6a7a","#1f4f5c"],
+  "到达轮次获得卡牌":["#7a2a4a","#5c2038"],"命型":["#5a2a7a","#44205c"],"融汇型":["#2a7a5a","#205c44"],
+  "扩充牌池型":["#7a3a2a","#5c2c20"],"道韵":["#5a7a2a","#445c20"],"极牌":["#7a2a2a","#5c2020"]
+};
 let DATA=[], cat="全部", kw="";
-
-function highlight(s){
-  return s.replace(/\[([^\]]+)\]/g,'<span class="ref">[$1]</span>');
-}
+const hl=s=>s.replace(/\[([^\]]+)\]/g,'<span class="ref">[$1]</span>');
 function render(){
   const g=document.getElementById('grid');
   const list=DATA.filter(d=>{
     if(cat!=="全部"&&d.category!==cat)return false;
-    if(kw){const t=(d.name+d.effect).toLowerCase();if(!t.includes(kw))return false;}
+    if(kw){if(!(d.name+d.effect).toLowerCase().includes(kw))return false;}
     return true;
   });
   if(!list.length){g.innerHTML='<div class="empty">没有匹配的天衍仙命</div>';return;}
   g.innerHTML=list.map(d=>{
-    const tags=(d.tags||[]).map(t=>{
-      const act=/限|冷却/.test(t)?' act':'';
-      return `<span class="tag${act}">${t}</span>`;
-    }).join('');
-    return `<div class="item">
-      <img class="ico" loading="lazy" src="icons/${d.icon}" alt="" onerror="this.style.visibility='hidden'">
-      <div class="body">
-        <div class="nm">${d.name}<span class="id">#${d.id}</span></div>
-        <div class="eff">${highlight(d.effect)}</div>
-        <div class="tags">${tags}</div>
-      </div>
-    </div>`;
+    const tags=[`<span class="tag cat">${d.category}</span>`]
+      .concat((d.tags||[]).map(t=>`<span class="tag${/限|冷却/.test(t)?' act':''}">${t}</span>`)).join('');
+    const col=CATCOLOR[d.category]||["#3a4a7a","#27325c"];
+    const ico=d.icon
+      ? `<img class="ico" loading="lazy" src="icons/${d.icon}" alt="" onerror="this.outerHTML='<div class=\\'tile\\' style=\\'background:linear-gradient(160deg,${col[0]},${col[1]})\\'>'+${JSON.stringify(d.name[0])}+'</div>'">`
+      : `<div class="tile" style="background:linear-gradient(160deg,${col[0]},${col[1]})">${d.name[0]}</div>`;
+    const pf=d.prefix?`<span class="pf">${d.prefix}</span>`:'';
+    return `<div class="item">${ico}<div class="body">
+      <div class="nm">${pf}${d.name}<span class="id">#${d.id}</span></div>
+      <div class="eff">${hl(d.effect)}</div>
+      <div class="tags">${tags}</div></div></div>`;
   }).join('');
 }
 function buildFilters(){
@@ -145,11 +148,8 @@ function buildFilters(){
   });
 }
 document.getElementById('q').addEventListener('input',e=>{kw=e.target.value.trim().toLowerCase();render();});
-
 fetch('data.json').then(r=>r.json()).then(d=>{
-  DATA=d;
-  document.getElementById('total').textContent=d.length;
-  buildFilters(); render();
+  DATA=d; document.getElementById('total').textContent=d.length; buildFilters(); render();
 });
 </script>
 </body>
