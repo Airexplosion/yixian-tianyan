@@ -5,7 +5,7 @@
   "prefix": "",
   "effect": "突破境界时可刷新全部仙命选项（累计限5次）",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_12.png",
   "tags": [
    "限5次"
   ]
@@ -16,7 +16,7 @@
   "prefix": "",
   "effect": "突破境界所需的修为和体魄减2",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_14.png",
   "tags": []
  },
  {
@@ -25,7 +25,7 @@
   "prefix": "",
   "effect": "换牌机会储存上限减10；到达第3/5/8/11轮后，可无视修为突破至筑基/金丹/元婴/化神期",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_15.png",
   "tags": []
  },
  {
@@ -34,7 +34,7 @@
   "prefix": "",
   "effect": "修为+1；换牌机会储存上限加20；手牌上限加20",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_16.png",
   "tags": []
  },
  {
@@ -43,7 +43,7 @@
   "prefix": "",
   "effect": "下1次通过道韵预感获得牌时，额外获得1张相同的牌",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_18.png",
   "tags": []
  },
  {
@@ -52,7 +52,7 @@
   "prefix": "",
   "effect": "每轮开始时，若上一轮自身未进行过换牌，则换牌机会+1",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_19.png",
   "tags": []
  },
  {
@@ -61,7 +61,7 @@
   "prefix": "",
   "effect": "每次战斗胜利时，向对方造成的命元伤害减1（至少为1），自身加1次换牌机会",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_21.png",
   "tags": []
  },
  {
@@ -70,7 +70,7 @@
   "prefix": "",
   "effect": "战斗中每次加防时多加1",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_26.png",
   "tags": []
  },
  {
@@ -79,7 +79,7 @@
   "prefix": "",
   "effect": "若手牌不为空，战斗开始时加15%生命及等量生命上限",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_27.png",
   "tags": []
  },
  {
@@ -88,7 +88,7 @@
   "prefix": "",
   "effect": "若手牌为空，[速度]+4",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_29.png",
   "tags": []
  },
  {
@@ -97,7 +97,7 @@
   "prefix": "",
   "effect": "向牌池中加入所有其他副职业的元婴期和化神期牌各4张",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_31.png",
   "tags": []
  },
  {
@@ -106,7 +106,7 @@
   "prefix": "",
   "effect": "每次使用普通攻击时，令对方失去3层[加攻]和3层[护体]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_32.png",
   "tags": []
  },
  {
@@ -115,7 +115,7 @@
   "prefix": "",
   "effect": "每张普通攻击在首次使用时获得2层[护体]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_33.png",
   "tags": []
  },
  {
@@ -124,7 +124,7 @@
   "prefix": "",
   "effect": "每次使用普通攻击时获得2层[加攻]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_36.png",
   "tags": []
  },
  {
@@ -133,7 +133,7 @@
   "prefix": "",
   "effect": "生命上限+2；卡组中可额外放置1张[持续]或[消耗]牌",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_39.png",
   "tags": []
  },
  {
@@ -160,7 +160,7 @@
   "prefix": "",
   "effect": "战斗开始时算作已用过2次云剑并加2[云海]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_89.png",
   "tags": []
  },
  {
@@ -187,7 +187,7 @@
   "prefix": "",
   "effect": "战斗开始时若[澄心剑胚]与云剑相邻，则下轮开始抽牌时优先抽1张云剑；若[澄心剑胚]与狂剑相邻，则下轮开始抽牌时优先抽1张狂剑",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_99.png",
   "tags": []
  },
  {
@@ -196,7 +196,7 @@
   "prefix": "",
   "effect": "使用[澄心剑胚]时加1[灵气]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_100.png",
   "tags": []
  },
  {
@@ -205,7 +205,7 @@
   "prefix": "",
   "effect": "使用[澄心剑胚]时加2[剑气]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_101.png",
   "tags": []
  },
  {
@@ -214,7 +214,7 @@
   "prefix": "",
   "effect": "使用[澄心剑胚]时自身所有[负面状态]减2层",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_102.png",
   "tags": []
  },
  {
@@ -223,7 +223,7 @@
   "prefix": "",
   "effect": "使用[澄心剑胚]时获得2层[水月]效果",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_103.png",
   "tags": []
  },
  {
@@ -241,7 +241,7 @@
   "prefix": "",
   "effect": "可在手牌中将2级“剑”牌拖动到同境界的1级“剑”牌上合成，令1级“剑”牌升级",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_106.png",
   "tags": []
  },
  {
@@ -250,7 +250,7 @@
   "prefix": "",
   "effect": "每场战斗首次使用剑阵时加5[防]和1层[护体]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_109.png",
   "tags": []
  },
  {
@@ -295,7 +295,7 @@
   "prefix": "",
   "effect": "每次使用卡组第8格的牌时，向对方施加2层[内伤]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_121.png",
   "tags": []
  },
  {
@@ -322,7 +322,7 @@
   "prefix": "",
   "effect": "每次使用金灵牌时加1[灵气]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_128.png",
   "tags": []
  },
  {
@@ -340,7 +340,7 @@
   "prefix": "",
   "effect": "五行（木/火/土/金/水）灵阵的[持续]效果除了相同五行，还可以被其相生五行（火/土/金/水/木）的牌触发",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_133.png",
   "tags": []
  },
  {
@@ -349,7 +349,7 @@
   "prefix": "",
   "effect": "每场战斗中首次使用名字含“灵阵”的牌后重复一次其效果，但自身下1回合无法行动",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_135.png",
   "tags": []
  },
  {
@@ -358,7 +358,7 @@
   "prefix": "",
   "effect": "[水势]造成[伤害]的效果改为一次攻击，且[击伤]对方时扣减的生命多50%",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_137.png",
   "tags": []
  },
  {
@@ -412,7 +412,7 @@
   "prefix": "",
   "effect": "计算卡组中不同[五行]数量时，[火灵]算作2种[五行]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_147.png",
   "tags": []
  },
  {
@@ -421,7 +421,7 @@
   "prefix": "",
   "effect": "每当获得[加攻]时，其中1层转为[木刺]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_148.png",
   "tags": []
  },
  {
@@ -430,7 +430,7 @@
   "prefix": "",
   "effect": "战斗中每次自身[耗生命]时，加1[体魄]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_149.png",
   "tags": []
  },
  {
@@ -439,7 +439,7 @@
   "prefix": "",
   "effect": "每场战斗开始时获得2层[辟邪]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_151.png",
   "tags": []
  },
  {
@@ -448,7 +448,7 @@
   "prefix": "",
   "effect": "描述中含“灵气”的牌多2攻",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_152.png",
   "tags": []
  },
  {
@@ -475,7 +475,7 @@
   "prefix": "",
   "effect": "每次战斗后，将卡组中名字含“掌”的1级牌升至2级",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_155.png",
   "tags": []
  },
  {
@@ -484,7 +484,7 @@
   "prefix": "",
   "effect": "使用卡牌时若[灵气]不足，可消耗自身的[冥]代替[灵气]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_160.png",
   "tags": []
  },
  {
@@ -502,7 +502,7 @@
   "prefix": "",
   "effect": "加[体魄]时，额外加1[灵气]（每回合限1次）",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_163.png",
   "tags": [
    "限1次"
   ]
@@ -513,7 +513,7 @@
   "prefix": "",
   "effect": "双方在各自回合开始时触发的每层[恢复]/[内伤]效果从加/减1生命改为2生命。",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_164.png",
   "tags": []
  },
  {
@@ -571,7 +571,7 @@
   "prefix": "",
   "effect": "将自身副职业切换为琴师；所有琴师牌也视作狂剑",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_319.png",
   "tags": []
  },
  {
@@ -580,7 +580,7 @@
   "prefix": "",
   "effect": "每次使用云剑时，获得1层[水月]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_320.png",
   "tags": []
  },
  {
@@ -589,7 +589,7 @@
   "prefix": "",
   "effect": "描述中含“再次行动”的牌[灵气]消耗减1",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_321.png",
   "tags": []
  },
  {
@@ -598,7 +598,7 @@
   "prefix": "",
   "effect": "使用[澄心剑胚]时加3[云海]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_324.png",
   "tags": []
  },
  {
@@ -607,7 +607,7 @@
   "prefix": "",
   "effect": "每次使用狂剑时加1[灵气]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_325.png",
   "tags": []
  },
  {
@@ -616,7 +616,7 @@
   "prefix": "",
   "effect": "每场战斗首次加生命或生命上限后，额外加当时生命上限20%的生命",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_326.png",
   "tags": []
  },
  {
@@ -625,7 +625,7 @@
   "prefix": "",
   "effect": "战斗开始时，升级卡组中第1张描述含“再次行动”或名字含“雷”的牌，战斗结束后还原",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_327.png",
   "tags": []
  },
  {
@@ -643,7 +643,7 @@
   "prefix": "",
   "effect": "战斗开始时若自身为后手行动，则下1次的[后招]效果可直接触发",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_329.png",
   "tags": []
  },
  {
@@ -652,7 +652,7 @@
   "prefix": "",
   "effect": "使用[算无遗策]时，获得3层临时[护体]，自身下个回合开始失去临时[护体]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_330.png",
   "tags": []
  },
  {
@@ -661,7 +661,7 @@
   "prefix": "",
   "effect": "每场战斗前7次使用星弈牌时，令后一格[成为星位]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_331.png",
   "tags": []
  },
  {
@@ -670,7 +670,7 @@
   "prefix": "",
   "effect": "含“后招”效果的牌在首次使用时向对方施加1层[虚弱]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_332.png",
   "tags": []
  },
  {
@@ -688,7 +688,7 @@
   "prefix": "",
   "effect": "战斗开始时，升级卡组中第1张木灵牌，战斗结束后还原",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_334.png",
   "tags": []
  },
  {
@@ -697,7 +697,7 @@
   "prefix": "",
   "effect": "锁定自身[架势]为[棍]；[切换架势]的效果改为[气势]上限+1",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_335.png",
   "tags": []
  },
  {
@@ -706,7 +706,7 @@
   "prefix": "",
   "effect": "战斗中首次加[灵气]时，额外加5[身法]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_336.png",
   "tags": []
  },
  {
@@ -715,7 +715,7 @@
   "prefix": "",
   "effect": "每次使用[灵羽]时额外加1[灵气]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_337.png",
   "tags": []
  },
  {
@@ -724,7 +724,7 @@
   "prefix": "",
   "effect": "战斗开始时生命上限+20；每次触发[再次行动]后生命+2",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_340.png",
   "tags": []
  },
  {
@@ -733,7 +733,7 @@
   "prefix": "",
   "effect": "战斗开始时，令对方下4次获得[内伤]时多加1层",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_342.png",
   "tags": []
  },
  {
@@ -751,7 +751,7 @@
   "prefix": "",
   "effect": "自身回合开始时，若生命≤20，获得1层[护体]（每场战斗限1次）",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_344.png",
   "tags": [
    "限1次"
   ]
@@ -762,7 +762,7 @@
   "prefix": "",
   "effect": "每次使用[火灵秘印]时，每有1[灵气]额外减对方1生命及上限",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_345.png",
   "tags": []
  },
  {
@@ -780,7 +780,7 @@
   "prefix": "",
   "effect": "使用[耗生命]的牌时加1[灵气]（每回合限1次）",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_347.png",
   "tags": [
    "限1次"
   ]
@@ -791,7 +791,7 @@
   "prefix": "",
   "effect": "仅需9[身法]即可触发[再次行动]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_348.png",
   "tags": []
  },
  {
@@ -800,7 +800,7 @@
   "prefix": "",
   "effect": "锁定自身[架势]为[拳]；[切换架势]的效果改为向对方造成3[伤害]",
   "category": "常规型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_349.png",
   "tags": []
  },
  {
@@ -818,7 +818,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：获得当前轮次数的生命上限",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_1.png",
   "tags": [
    "限1次"
   ]
@@ -829,7 +829,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：获得当前轮次数的换牌机会",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_2.png",
   "tags": [
    "限1次"
   ]
@@ -840,7 +840,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：获得当前轮次数+8的命元",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_3.png",
   "tags": [
    "限1次"
   ]
@@ -851,7 +851,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：换牌机会+1，抽1张自身当前境界的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_4.png",
   "tags": [
    "限1次"
   ]
@@ -862,7 +862,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：修为减1，选择自身当前牌池中1张门派牌获得",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_6.png",
   "tags": [
    "限1次"
   ]
@@ -873,7 +873,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：修为减3，抽3张牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_7.png",
   "tags": [
    "限2次"
   ]
@@ -884,7 +884,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：修为减1，选择自身当前牌池中1张副职牌获得",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_9.png",
   "tags": [
    "限1次"
   ]
@@ -895,7 +895,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：将手牌中所有牌随机变为其他牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_11.png",
   "tags": [
    "限2次"
   ]
@@ -906,7 +906,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：下场战斗自身临时加6[速度]",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_20.png",
   "tags": [
    "限2次"
   ]
@@ -917,7 +917,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：下次突破境界所需的修为和体魄减5",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_22.png",
   "tags": [
    "限1次"
   ]
@@ -928,7 +928,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：将[体魄]加至当前体魄上限-5",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_23.png",
   "tags": [
    "限1次"
   ]
@@ -939,7 +939,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张云剑",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_24.png",
   "tags": [
    "限3次"
   ]
@@ -950,7 +950,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：升级卡组中第一张1级牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_28.png",
   "tags": [
    "限1次"
   ]
@@ -961,7 +961,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：重新选择自身的副职业，移除牌池中剩余的旧副职业的牌以及低于自身上个境界的副职业牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_30.png",
   "tags": [
    "限1次"
   ]
@@ -972,7 +972,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张狂剑",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_34.png",
   "tags": [
    "限3次"
   ]
@@ -983,7 +983,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：修为减1，从上轮对手的卡组中选择1张[常规牌]获得",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_38.png",
   "tags": [
    "限1次"
   ]
@@ -994,7 +994,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：牌池中当前境界的所有牌数量加4",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_40.png",
   "tags": [
    "限1次"
   ]
@@ -1005,7 +1005,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：修为减1，从随机3张梦境牌中选择1张获得；每次突破境界时，自动提升梦境牌的境界",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_41.png",
   "tags": [
    "限1次"
   ]
@@ -1016,7 +1016,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张剑阵牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_42.png",
   "tags": [
    "限3次"
   ]
@@ -1027,7 +1027,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含[剑意]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_43.png",
   "tags": [
    "限3次"
   ]
@@ -1038,7 +1038,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张默认攻击次数≥2的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_44.png",
   "tags": [
    "限3次"
   ]
@@ -1049,7 +1049,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张星弈牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_45.png",
   "tags": [
    "限3次"
   ]
@@ -1060,7 +1060,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含[卦象]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_46.png",
   "tags": [
    "限3次"
   ]
@@ -1071,7 +1071,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张雷牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_47.png",
   "tags": [
    "限3次"
   ]
@@ -1082,7 +1082,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含[后招]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_48.png",
   "tags": [
    "限3次"
   ]
@@ -1093,7 +1093,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含生命相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_49.png",
   "tags": [
    "限3次"
   ]
@@ -1104,7 +1104,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张木灵牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_50.png",
   "tags": [
    "限3次"
   ]
@@ -1115,7 +1115,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张火灵牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_51.png",
   "tags": [
    "限3次"
   ]
@@ -1126,7 +1126,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张土灵牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_52.png",
   "tags": [
    "限3次"
   ]
@@ -1137,7 +1137,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张金灵牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_53.png",
   "tags": [
    "限3次"
   ]
@@ -1148,7 +1148,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张水灵牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_54.png",
   "tags": [
    "限3次"
   ]
@@ -1159,7 +1159,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张崩拳牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_56.png",
   "tags": [
    "限3次"
   ]
@@ -1170,7 +1170,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含[气势]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_57.png",
   "tags": [
    "限3次"
   ]
@@ -1181,7 +1181,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含[体魄]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_58.png",
   "tags": [
    "限3次"
   ]
@@ -1192,7 +1192,7 @@
   "prefix": "",
   "effect": "主动使用（限3次）：修为减1，换牌机会+1，抽1张描述中含[身法]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_59.png",
   "tags": [
    "限3次"
   ]
@@ -1203,7 +1203,7 @@
   "prefix": "",
   "effect": "主动使用（限4次）：修为减1，换牌机会+1，抽1张描述中含[灵气]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_60.png",
   "tags": [
    "限4次"
   ]
@@ -1214,7 +1214,7 @@
   "prefix": "",
   "effect": "主动使用（限4次）：修为减1，换牌机会+1，抽1张描述中含[防]相关效果的门派牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_61.png",
   "tags": [
    "限4次"
   ]
@@ -1225,7 +1225,7 @@
   "prefix": "",
   "effect": "主动使用（限4次）：修为减1，换牌机会+1，抽1张门派牌（优先取元婴期）",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_62.png",
   "tags": [
    "限4次"
   ]
@@ -1236,7 +1236,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：自身获得2张[云泉道茶]，其他角色在下轮开始时各获得1张[云泉道茶]",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_82.png",
   "tags": [
    "限1次"
   ]
@@ -1258,7 +1258,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：修为减4，随机获得“云剑”“狂剑”“灵剑”“剑阵”牌各一张",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_105.png",
   "tags": [
    "限2次"
   ]
@@ -1302,7 +1302,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：升级卡组中第1张[持续]牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_259.png",
   "tags": [
    "限2次"
   ]
@@ -1313,7 +1313,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：令手牌中随机1张可[变异]的灵植牌[变异]",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_260.png",
   "tags": [
    "限2次"
   ]
@@ -1324,7 +1324,7 @@
   "prefix": "",
   "effect": "主动使用（限1次）：随机升级手牌或卡组中的1张元婴期或化神期牌",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_273.png",
   "tags": [
    "限1次"
   ]
@@ -1335,7 +1335,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：随机升级手牌或卡组中1张炼气期[常规牌]",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_274.png",
   "tags": [
    "限2次"
   ]
@@ -1357,7 +1357,7 @@
   "prefix": "",
   "effect": "主动使用（限2次）：将手牌中1张[坤卦]变为1级[乾卦]并送入未来，到第13轮返回手牌（已到第13轮后改为下1轮返回手牌）",
   "category": "主动计数型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_341.png",
   "tags": [
    "限2次"
   ]
@@ -1368,7 +1368,7 @@
   "prefix": "",
   "effect": "主动使用（冷却6轮）：修为+1，生命上限减2",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_5.png",
   "tags": [
    "冷却6轮"
   ]
@@ -1379,7 +1379,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张副职牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_10.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1390,7 +1390,7 @@
   "prefix": "",
   "effect": "主动使用（冷却3轮）：修为减1，从随机3张牌中选择1张获得",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_13.png",
   "tags": [
    "冷却3轮"
   ]
@@ -1401,7 +1401,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张云剑牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_25.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1412,7 +1412,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张剑阵牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_35.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1434,7 +1434,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张[五行]牌（优先取元婴期以上，且和卡组第一格所属五行相同的牌）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_55.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1445,7 +1445,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张灵剑牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_264.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1456,7 +1456,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张描述中含[剑意]相关效果的门派牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_265.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1467,7 +1467,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张名字中含“混元”的门派牌",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_266.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1478,7 +1478,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张星弈牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_267.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1489,7 +1489,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张描述中含[卦象]相关效果的门派牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_268.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1500,7 +1500,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张崩拳牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_269.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1511,7 +1511,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张描述中含[体魄]相关效果的门派牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_270.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1522,7 +1522,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张描述中含[负面状态]相关效果的门派牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_271.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1533,7 +1533,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：修为减1，抽1张描述中含[再次行动]或[身法]相关效果的门派牌（优先取元婴期以上）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_272.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1544,7 +1544,7 @@
   "prefix": "",
   "effect": "主动使用（冷却2轮）：下场战斗开始时，获得2层[护体]",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_298.png",
   "tags": [
    "冷却2轮"
   ]
@@ -1555,7 +1555,7 @@
   "prefix": "",
   "effect": "到达第13轮后：修为减1，获得1张[背孤]；\n主动使用（第13轮解锁）：将[背孤]变为[击虚]，或反向变回",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_301.png",
   "tags": [
    "第13轮"
   ]
@@ -1566,7 +1566,7 @@
   "prefix": "",
   "effect": "名字含“猫”的牌也视作狂剑；\n主动使用（冷却3轮）：将手牌中1张名字含猫的牌变为随机狂剑（继承等级）",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_322.png",
   "tags": [
    "冷却3轮"
   ]
@@ -1577,7 +1577,7 @@
   "prefix": "",
   "effect": "主动使用（冷却1轮）：选择一个自身已有的[澄心剑胚]相关仙命，重新选择其选项",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_323.png",
   "tags": [
    "冷却1轮"
   ]
@@ -1588,7 +1588,7 @@
   "prefix": "",
   "effect": "主动使用（冷却3轮）：修为减1，命元减2（最低减至1），选择手牌或卡组中一张金丹期或以下境界的[常规牌]，获得其1级复制",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_350.png",
   "tags": [
    "冷却3轮"
   ]
@@ -1599,7 +1599,7 @@
   "prefix": "",
   "effect": "主动使用（冷却3轮）：修为减1，命元减4（最低减至1），选择手牌或卡组中一张元婴期或以下境界的[常规牌]，获得其1级复制",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_351.png",
   "tags": [
    "冷却3轮"
   ]
@@ -1610,7 +1610,7 @@
   "prefix": "",
   "effect": "主动使用（冷却3轮）：修为减1，命元减6（最低减至1），选择手牌或卡组中一张化神期或以下境界的[常规牌]，获得其1级复制",
   "category": "主动冷却型",
-  "icon": "",
+  "icon": "Icon_FateStrategy_352.png",
   "tags": [
    "冷却3轮"
   ]
@@ -1621,7 +1621,7 @@
   "prefix": "",
   "effect": "到达第13轮后：修为减2，获得2张[道韵气息]",
   "category": "到达轮次获得卡牌",
-  "icon": "",
+  "icon": "Card_46.png",
   "tags": [
    "第13轮"
   ]
@@ -2036,7 +2036,7 @@
   "prefix": "",
   "effect": "到达第14轮后：修为减1，获得1张[影枭兔]",
   "category": "到达轮次获得卡牌",
-  "icon": "",
+  "icon": "Card_99000210.png",
   "tags": [
    "第14轮"
   ]
@@ -2047,7 +2047,7 @@
   "prefix": "",
   "effect": "到达第15轮后：修为减1，获得1张[龙]",
   "category": "到达轮次获得卡牌",
-  "icon": "",
+  "icon": "Card_79.png",
   "tags": [
    "第15轮"
   ]
@@ -2909,7 +2909,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[云剑·晚霞]；第10轮后若自身符合境界且没有[云剑·晚霞]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_47.png",
   "tags": []
  },
  {
@@ -2918,7 +2918,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[青龙剑阵]；第10轮后若自身符合境界且没有[青龙剑阵]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_48.png",
   "tags": []
  },
  {
@@ -2927,7 +2927,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[百兽灵剑阵]；第13轮后若自身符合境界且没有[百兽灵剑阵]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_49.png",
   "tags": []
  },
  {
@@ -2936,7 +2936,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[狂龙吞云]；第13轮后若自身符合境界且没有[狂龙吞云]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_50.png",
   "tags": []
  },
  {
@@ -2945,7 +2945,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[灵卦术]；第10轮后若自身符合境界且没有[灵卦术]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_51.png",
   "tags": []
  },
  {
@@ -2954,7 +2954,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[摘花飞叶]；第10轮后若自身符合境界且没有[摘花飞叶]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_52.png",
   "tags": []
  },
  {
@@ -2963,7 +2963,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[星弈·双飞燕]；第13轮后若自身符合境界且没有[星弈·双飞燕]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_53.png",
   "tags": []
  },
  {
@@ -2972,7 +2972,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[滴水穿石]；第13轮后若自身符合境界且没有[滴水穿石]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_54.png",
   "tags": []
  },
  {
@@ -2981,7 +2981,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[野渡之印]；第10轮后若自身符合境界且没有[野渡之印]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_55.png",
   "tags": []
  },
  {
@@ -2990,7 +2990,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[熔岩之印]；第10轮后若自身符合境界且没有[熔岩之印]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_56.png",
   "tags": []
  },
  {
@@ -2999,7 +2999,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[滚石之印]；第13轮后若自身符合境界且没有[滚石之印]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_57.png",
   "tags": []
  },
  {
@@ -3008,7 +3008,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[斩浪之印]；第13轮后若自身符合境界且没有[斩浪之印]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_58.png",
   "tags": []
  },
  {
@@ -3017,7 +3017,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[玄灵附身]；第10轮后若自身符合境界且没有[玄灵附身]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_336.png",
   "tags": []
  },
  {
@@ -3026,7 +3026,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[崩拳•伏虎]；第10轮后若自身符合境界且没有[崩拳•伏虎]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_337.png",
   "tags": []
  },
  {
@@ -3035,7 +3035,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[瞬影击]；第13轮后若自身符合境界且没有[瞬影击]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_338.png",
   "tags": []
  },
  {
@@ -3044,7 +3044,7 @@
   "prefix": "",
   "effect": "牌池中加入6张[逍遥无影拳]；第13轮后若自身符合境界且没有[逍遥无影拳]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_339.png",
   "tags": []
  },
  {
@@ -3053,7 +3053,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[悟道丹]；第13轮后若自身符合境界且没有[悟道丹]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_2000015.png",
   "tags": []
  },
  {
@@ -3062,7 +3062,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[冰灵护体丹]；第13轮后若自身符合境界且没有[冰灵护体丹]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_2000013.png",
   "tags": []
  },
  {
@@ -3071,7 +3071,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[万邪入体咒]；第13轮后若自身符合境界且没有[万邪入体咒]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_3000015.png",
   "tags": []
  },
  {
@@ -3080,7 +3080,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[千里神行符]；第13轮后若自身符合境界且没有[千里神行符]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_3000013.png",
   "tags": []
  },
  {
@@ -3089,7 +3089,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[转弦合调]；第13轮后若自身符合境界且没有[转弦合调]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_5000014.png",
   "tags": []
  },
  {
@@ -3098,7 +3098,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[天音困仙曲]；第13轮后若自身符合境界且没有[天音困仙曲]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_5000015.png",
   "tags": []
  },
  {
@@ -3107,7 +3107,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[画龙点睛]；第13轮后若自身符合境界且没有[画龙点睛]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_6000013.png",
   "tags": []
  },
  {
@@ -3116,7 +3116,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[运笔如飞]；第13轮后若自身符合境界且没有[运笔如飞]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_6000012.png",
   "tags": []
  },
  {
@@ -3125,7 +3125,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[须弥阵纹]；第13轮后若自身符合境界且没有[须弥阵纹]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_8000014.png",
   "tags": []
  },
  {
@@ -3134,7 +3134,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[空间灵田]；第13轮后若自身符合境界且没有[空间灵田]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_9000015.png",
   "tags": []
  },
  {
@@ -3143,7 +3143,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[厄劫缠身]；第13轮后若自身符合境界且没有[厄劫缠身]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_11000018.png",
   "tags": []
  },
  {
@@ -3152,7 +3152,7 @@
   "prefix": "",
   "effect": "牌池中额外加入4张[命运轮回]；第13轮后若自身符合境界且没有[命运轮回]，则该轮抽牌时优先抽取1张",
   "category": "扩充牌池型",
-  "icon": "",
+  "icon": "Card_11000021.png",
   "tags": []
  },
  {
